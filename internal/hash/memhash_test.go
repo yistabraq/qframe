@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/tobgu/qframe/internal/hash"
+	"github.com/yistabraq/qframe/internal/hash"
 )
 
 const noSeed int64 = 0

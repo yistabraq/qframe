@@ -4,12 +4,12 @@ package template
 
 import (
 	"fmt"
-	"github.com/tobgu/qframe/config/rolling"
+	"github.com/yistabraq/qframe/config/rolling"
 
 	"github.com/mauricelam/genny/generic"
-	"github.com/tobgu/qframe/internal/column"
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/internal/column"
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 type genericDataType generic.Number

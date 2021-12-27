@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 type Matcher interface {

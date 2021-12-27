@@ -3,7 +3,7 @@ package qplot_test
 import (
 	"gonum.org/v1/plot/plotter"
 
-	"github.com/tobgu/qframe/contrib/gonum/qplot"
+	"github.com/yistabraq/qframe/contrib/gonum/qplot"
 )
 
 var (

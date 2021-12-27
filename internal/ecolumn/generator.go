@@ -3,9 +3,9 @@ package ecolumn
 import (
 	"bytes"
 
-	"github.com/tobgu/qframe/filter"
-	"github.com/tobgu/qframe/internal/maps"
-	"github.com/tobgu/qframe/internal/template"
+	"github.com/yistabraq/qframe/filter"
+	"github.com/yistabraq/qframe/internal/maps"
+	"github.com/yistabraq/qframe/internal/template"
 )
 
 //go:generate qfgenerate -source=efilter -dst-file=filters_gen.go

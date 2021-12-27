@@ -1,8 +1,8 @@
 generate:
 	# Build and install generator binary first
-	go generate github.com/tobgu/qframe/... || true
-	go install github.com/tobgu/qframe/cmd/qfgenerate
-	go generate github.com/tobgu/qframe/...
+	go generate github.com/yistabraq/qframe/... || true
+	go install github.com/yistabraq/qframe/cmd/qfgenerate
+	go generate github.com/yistabraq/qframe/...
 
 test: generate
 	go test ./...
@@ -19,7 +19,7 @@ vet: generate
 	go vet ./...
 
 cov: generate
-	go test github.com/tobgu/qframe/... -coverprofile=coverage.out -coverpkg=all
+	go test github.com/yistabraq/qframe/... -coverprofile=coverage.out -coverpkg=all
 	go tool cover -html=coverage.out
 
 deps:

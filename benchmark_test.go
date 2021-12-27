@@ -9,11 +9,11 @@ import (
 	"math/rand"
 	"testing"
 
-	qf "github.com/tobgu/qframe"
-	"github.com/tobgu/qframe/config/csv"
-	"github.com/tobgu/qframe/config/groupby"
-	"github.com/tobgu/qframe/filter"
-	"github.com/tobgu/qframe/types"
+	qf "github.com/yistabraq/qframe"
+	"github.com/yistabraq/qframe/config/csv"
+	"github.com/yistabraq/qframe/config/groupby"
+	"github.com/yistabraq/qframe/filter"
+	"github.com/yistabraq/qframe/types"
 )
 
 func genInts(seed int64, size int) []int {

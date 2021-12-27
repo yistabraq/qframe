@@ -2,11 +2,12 @@ package template
 
 import (
 	"encoding/json"
-	"github.com/tobgu/qframe/qerrors"
 
-	"github.com/tobgu/qframe/internal/column"
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/qerrors"
+
+	"github.com/yistabraq/qframe/internal/column"
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/types"
 )
 
 // This file contains definitions for data and functions that need to be added

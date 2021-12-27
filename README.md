@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/tobgu/qframe.png)](https://travis-ci.org/tobgu/qframe)
-[![gocover.run](https://gocover.run/github.com/tobgu/qframe.svg?style=flat&tag=1.10)](https://gocover.run?tag=1.10&repo=github.com%2Ftobgu%2Fqframe)
-[![Go Report Card](https://goreportcard.com/badge/github.com/tobgu/qframe)](https://goreportcard.com/report/github.com/tobgu/qframe)
-[![GoDoc](https://godoc.org/github.com/tobgu/qframe?status.svg)](https://godoc.org/github.com/tobgu/qframe)
+[![gocover.run](https://gocover.run/github.com/yistabraq/qframe.svg?style=flat&tag=1.10)](https://gocover.run?tag=1.10&repo=github.com%2Ftobgu%2Fqframe)
+[![Go Report Card](https://goreportcard.com/badge/github.com/yistabraq/qframe)](https://goreportcard.com/report/github.com/yistabraq/qframe)
+[![GoDoc](https://godoc.org/github.com/yistabraq/qframe?status.svg)](https://godoc.org/github.com/yistabraq/qframe)
 
 QFrame is an immutable data frame that support filtering, aggregation
 and data manipulation. Any operation on a QFrame results in
@@ -10,19 +10,19 @@ fairly efficiently since much of the underlying data will be shared
 between the two frames.
 
 The design of QFrame has mainly been driven by the requirements from
-[qocache](https://github.com/tobgu/qocache) but it is in many aspects
+[qocache](https://../qocache) but it is in many aspects
 a general purpose data frame. Any suggestions for added/improved
 functionality to support a wider scope is always of interest as long
 as they don't conflict with the requirements from qocache!
 See [Contribute](#contribute).
 
 ## Installation
-`go get github.com/tobgu/qframe`
+`go get github.com/yistabraq/qframe`
 
 ## Usage
 Below are some examples of common use cases. The list is not exhaustive
 in any way. For a complete description of all operations including more
-examples see the [docs](https://godoc.org/github.com/tobgu/qframe).
+examples see the [docs](https://godoc.org/github.com/yistabraq/qframe).
 
 ### IO
 QFrames can currently be read from and written to CSV, record
@@ -71,8 +71,8 @@ import (
 	"fmt"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/tobgu/qframe"
-	qsql "github.com/tobgu/qframe/config/sql"
+	"github.com/yistabraq/qframe"
+	qsql "github.com/yistabraq/qframe/config/sql"
 )
 
 func main() {
@@ -221,7 +221,7 @@ fmt.Println(f.Select("COL3"))
 
 ## More usage examples
 Examples of the most common operations are available in the
-[docs](https://godoc.org/github.com/tobgu/qframe).
+[docs](https://godoc.org/github.com/yistabraq/qframe).
 
 ## Error handling
 All operations that may result in errors will set the `Err` variable
@@ -250,7 +250,7 @@ compatible way.
 ## High level design
 A QFrame is a collection of columns which can be of type int, float,
 string, bool or enum. For more information about the data types see the
-[types docs](https://godoc.org/github.com/tobgu/qframe/types).
+[types docs](https://godoc.org/github.com/yistabraq/qframe/types).
 
 In addition to the columns there is also an index which controls
 which rows in the columns that are part of the QFrame and the
@@ -282,7 +282,7 @@ wrappers for the types you are using to regain static type safety.
   the root cause of errors.
 
 ## Performance/benchmarks
-There are a number of benchmarks in [qbench](https://github.com/tobgu/qbench)
+There are a number of benchmarks in [qbench](https://../qbench)
 comparing QFrame to Pandas and Gota where applicable.
 
 ## Other data frames

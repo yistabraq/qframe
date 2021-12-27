@@ -1,6 +1,6 @@
 package rolling
 
-import "github.com/tobgu/qframe/qerrors"
+import "github.com/yistabraq/qframe/qerrors"
 
 // DataValue can be any of int/float/*string/bool, eg. any type that a column may take.
 type DataValue = interface{}

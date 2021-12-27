@@ -2,8 +2,9 @@ package io
 
 import (
 	"encoding/json"
-	"github.com/tobgu/qframe/qerrors"
 	"io"
+
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 type JSONRecords []map[string]interface{}

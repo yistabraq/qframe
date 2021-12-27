@@ -1,7 +1,7 @@
 package sql
 
 import (
-	qsqlio "github.com/tobgu/qframe/internal/io/sql"
+	qsqlio "github.com/yistabraq/qframe/internal/io/sql"
 )
 
 type coerceType int

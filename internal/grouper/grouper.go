@@ -3,9 +3,9 @@ package grouper
 import (
 	"math/bits"
 
-	"github.com/tobgu/qframe/internal/column"
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/internal/math/integer"
+	"github.com/yistabraq/qframe/internal/column"
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/internal/math/integer"
 )
 
 /*

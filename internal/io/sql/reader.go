@@ -3,8 +3,8 @@ package sql
 import (
 	"database/sql"
 
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 // ReadSQL returns a named map of types.DataSlice for consumption

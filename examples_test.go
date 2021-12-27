@@ -5,12 +5,12 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tobgu/qframe"
-	"github.com/tobgu/qframe/config/csv"
-	"github.com/tobgu/qframe/config/groupby"
-	"github.com/tobgu/qframe/config/newqf"
-	"github.com/tobgu/qframe/function"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe"
+	"github.com/yistabraq/qframe/config/csv"
+	"github.com/yistabraq/qframe/config/groupby"
+	"github.com/yistabraq/qframe/config/newqf"
+	"github.com/yistabraq/qframe/function"
+	"github.com/yistabraq/qframe/types"
 )
 
 func ExampleQFrame_filterBuiltin() {

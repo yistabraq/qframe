@@ -26,5 +26,5 @@ func {{.name}}(index index.Int, column []{{.dataType}}, compCol []{{.dataType}},
 `
 
 func GenerateFilters(pkgName string, specs []Spec) (*bytes.Buffer, error) {
-	return Generate(pkgName, specs, []string{"github.com/tobgu/qframe/internal/index"})
+	return Generate(pkgName, specs, []string{"github.com/yistabraq/qframe/internal/index"})
 }

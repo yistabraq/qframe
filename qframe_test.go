@@ -10,18 +10,18 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tobgu/qframe/config/rolling"
+	"github.com/yistabraq/qframe/config/rolling"
 
 	"io"
 	"log"
 
-	"github.com/tobgu/qframe"
-	"github.com/tobgu/qframe/aggregation"
-	"github.com/tobgu/qframe/config/csv"
-	"github.com/tobgu/qframe/config/eval"
-	"github.com/tobgu/qframe/config/groupby"
-	"github.com/tobgu/qframe/config/newqf"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe"
+	"github.com/yistabraq/qframe/aggregation"
+	"github.com/yistabraq/qframe/config/csv"
+	"github.com/yistabraq/qframe/config/eval"
+	"github.com/yistabraq/qframe/config/groupby"
+	"github.com/yistabraq/qframe/config/newqf"
+	"github.com/yistabraq/qframe/types"
 )
 
 func assertEquals(t *testing.T, expected, actual qframe.QFrame) {

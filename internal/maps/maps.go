@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/tobgu/qframe/internal/strings"
+	"github.com/yistabraq/qframe/internal/strings"
 )
 
 // StringKeys returns a sorted list of all unique keys present in mm.

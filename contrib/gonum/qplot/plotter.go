@@ -3,9 +3,9 @@ package qplot
 import (
 	"strconv"
 
-	"github.com/tobgu/qframe"
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 // LabelFunc returns a string representation of

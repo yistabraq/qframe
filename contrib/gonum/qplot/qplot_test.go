@@ -14,8 +14,8 @@ import (
 	"gonum.org/v1/plot/plotter"
 	"gonum.org/v1/plot/plotutil"
 
-	"github.com/tobgu/qframe"
-	"github.com/tobgu/qframe/contrib/gonum/qplot"
+	"github.com/yistabraq/qframe"
+	"github.com/yistabraq/qframe/contrib/gonum/qplot"
 )
 
 func panicOnErr(err error) {

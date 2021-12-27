@@ -1,11 +1,11 @@
 package qframe
 
 import (
-	"github.com/tobgu/qframe/internal/grouper"
-	"github.com/tobgu/qframe/internal/icolumn"
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/internal/grouper"
+	"github.com/yistabraq/qframe/internal/icolumn"
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 // GroupStats contains internal statistics for grouping.

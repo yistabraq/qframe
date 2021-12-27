@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/tobgu/qframe/internal/template"
+	"github.com/yistabraq/qframe/internal/template"
 )
 
-//go:generate qfgenerate -source=qframe -dst-file=../../../qframe_gen.go
+//go:generate qfgenerate -source=qframe -dst-file=../../github.com/yistabraq/qframe_gen.go
 
 const viewTemplate = `
 // {{.type}}View provides a "view" into an {{.lowerType}} column and can be used for access to individual elements.
@@ -72,11 +72,11 @@ func GenerateQFrame() (*bytes.Buffer, error) {
 		view("String", "scolumn"),
 		view("Enum", "ecolumn"),
 	}, []string{
-		"github.com/tobgu/qframe/qerrors",
-		"github.com/tobgu/qframe/internal/icolumn",
-		"github.com/tobgu/qframe/internal/fcolumn",
-		"github.com/tobgu/qframe/internal/bcolumn",
-		"github.com/tobgu/qframe/internal/scolumn",
-		"github.com/tobgu/qframe/internal/ecolumn",
+		"github.com/yistabraq/qframe/qerrors",
+		"github.com/yistabraq/qframe/internal/icolumn",
+		"github.com/yistabraq/qframe/internal/fcolumn",
+		"github.com/yistabraq/qframe/internal/bcolumn",
+		"github.com/yistabraq/qframe/internal/scolumn",
+		"github.com/yistabraq/qframe/internal/ecolumn",
 	})
 }

@@ -1,8 +1,8 @@
 package icolumn
 
 import (
-	"github.com/tobgu/qframe/filter"
-	"github.com/tobgu/qframe/internal/index"
+	"github.com/yistabraq/qframe/filter"
+	"github.com/yistabraq/qframe/internal/index"
 )
 
 // Column - constant

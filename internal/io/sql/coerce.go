@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 // CoerceFunc returns a function that does an explicit

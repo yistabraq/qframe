@@ -1,8 +1,8 @@
 package csv
 
 import (
-	qfio "github.com/tobgu/qframe/internal/io"
-	"github.com/tobgu/qframe/types"
+	qfio "github.com/yistabraq/qframe/internal/io"
+	"github.com/yistabraq/qframe/types"
 )
 
 // Config holds configuration for reading CSV files into QFrames.

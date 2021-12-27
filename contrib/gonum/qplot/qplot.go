@@ -6,7 +6,7 @@ import (
 
 	"gonum.org/v1/plot"
 
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 // QPlot is a abstraction over Gonum's plotting interface

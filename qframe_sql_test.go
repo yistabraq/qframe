@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/tobgu/qframe"
-	qsql "github.com/tobgu/qframe/config/sql"
+	"github.com/yistabraq/qframe"
+	qsql "github.com/yistabraq/qframe/config/sql"
 )
 
 // MockDriver implements a fake SQL driver for testing.

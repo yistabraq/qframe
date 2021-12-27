@@ -3,8 +3,8 @@ package fcolumn
 import (
 	"math"
 
-	"github.com/tobgu/qframe/filter"
-	"github.com/tobgu/qframe/internal/index"
+	"github.com/yistabraq/qframe/filter"
+	"github.com/yistabraq/qframe/internal/index"
 )
 
 var filterFuncs0 = map[string]func(index.Int, []float64, index.Bool){

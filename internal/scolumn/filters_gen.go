@@ -1,7 +1,7 @@
 package scolumn
 
 import (
-	"github.com/tobgu/qframe/internal/index"
+	"github.com/yistabraq/qframe/internal/index"
 )
 
 // Code generated from template/... DO NOT EDIT

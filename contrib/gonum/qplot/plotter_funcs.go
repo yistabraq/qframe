@@ -5,7 +5,7 @@ import (
 	"gonum.org/v1/plot/plotter"
 	"gonum.org/v1/plot/vg"
 
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 // PlotterFunc returns a plot.Plotter.

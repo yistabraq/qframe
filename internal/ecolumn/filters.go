@@ -1,10 +1,10 @@
 package ecolumn
 
 import (
-	"github.com/tobgu/qframe/filter"
-	"github.com/tobgu/qframe/internal/index"
-	qfstrings "github.com/tobgu/qframe/internal/strings"
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/filter"
+	"github.com/yistabraq/qframe/internal/index"
+	qfstrings "github.com/yistabraq/qframe/internal/strings"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 var filterFuncs0 = map[string]func(index.Int, []enumVal, index.Bool){

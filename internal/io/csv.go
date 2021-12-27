@@ -5,12 +5,12 @@ import (
 	"io"
 	"math"
 
-	"github.com/tobgu/qframe/internal/ecolumn"
-	"github.com/tobgu/qframe/internal/fastcsv"
-	"github.com/tobgu/qframe/internal/ncolumn"
-	"github.com/tobgu/qframe/internal/strings"
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/internal/ecolumn"
+	"github.com/yistabraq/qframe/internal/fastcsv"
+	"github.com/yistabraq/qframe/internal/ncolumn"
+	"github.com/yistabraq/qframe/internal/strings"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 // Helper type to slice column bytes into individual elements

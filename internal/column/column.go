@@ -2,10 +2,11 @@ package column
 
 import (
 	"fmt"
-	"github.com/tobgu/qframe/config/rolling"
 
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/config/rolling"
+
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/types"
 )
 
 type Column interface {

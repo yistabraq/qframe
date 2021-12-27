@@ -1,6 +1,6 @@
 package icolumn
 
-import "github.com/tobgu/qframe/internal/math/integer"
+import "github.com/yistabraq/qframe/internal/math/integer"
 
 var aggregations = map[string]func([]int) int{
 	"sum": sum,

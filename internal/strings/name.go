@@ -3,7 +3,7 @@ package strings
 import (
 	"strings"
 
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 func isQuoted(s string) bool {

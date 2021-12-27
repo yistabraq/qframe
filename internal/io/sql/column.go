@@ -4,9 +4,9 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/tobgu/qframe/internal/math/float"
+	"github.com/yistabraq/qframe/internal/math/float"
 
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 // Column implements the sql.Scanner interface

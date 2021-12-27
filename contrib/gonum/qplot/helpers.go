@@ -1,8 +1,8 @@
 package qplot
 
 import (
-	"github.com/tobgu/qframe"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe"
+	"github.com/yistabraq/qframe/types"
 )
 
 // isNumCol checks to see if column contains a numeric

@@ -3,15 +3,16 @@ package scolumn
 import (
 	"bytes"
 	"fmt"
-	"github.com/tobgu/qframe/config/rolling"
-	"github.com/tobgu/qframe/internal/column"
-	"github.com/tobgu/qframe/internal/hash"
-	"github.com/tobgu/qframe/internal/index"
-	qfstrings "github.com/tobgu/qframe/internal/strings"
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
 	"math/rand"
 	"reflect"
+
+	"github.com/yistabraq/qframe/config/rolling"
+	"github.com/yistabraq/qframe/internal/column"
+	"github.com/yistabraq/qframe/internal/hash"
+	"github.com/yistabraq/qframe/internal/index"
+	qfstrings "github.com/yistabraq/qframe/internal/strings"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 var stringApplyFuncs = map[string]func(index.Int, Column) interface{}{

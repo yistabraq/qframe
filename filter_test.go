@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/tobgu/qframe"
+	"github.com/yistabraq/qframe"
 )
 
 func f(column string, comparator string, arg interface{}) qframe.Filter {

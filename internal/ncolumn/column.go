@@ -7,11 +7,11 @@ It is for example used when reading zero row CSVs without type hints.
 */
 
 import (
-	"github.com/tobgu/qframe/config/rolling"
-	"github.com/tobgu/qframe/internal/column"
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/config/rolling"
+	"github.com/yistabraq/qframe/internal/column"
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 type Column struct{}

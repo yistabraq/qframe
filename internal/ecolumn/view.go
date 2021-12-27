@@ -1,6 +1,6 @@
 package ecolumn
 
-import "github.com/tobgu/qframe/internal/index"
+import "github.com/yistabraq/qframe/internal/index"
 
 type View struct {
 	column Column

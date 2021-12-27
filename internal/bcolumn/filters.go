@@ -1,8 +1,8 @@
 package bcolumn
 
 import (
-	"github.com/tobgu/qframe/filter"
-	"github.com/tobgu/qframe/internal/index"
+	"github.com/yistabraq/qframe/filter"
+	"github.com/yistabraq/qframe/internal/index"
 )
 
 var filterFuncs = map[string]func(index.Int, []bool, bool, index.Bool){

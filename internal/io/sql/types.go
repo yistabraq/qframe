@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/tobgu/qframe/internal/bcolumn"
-	"github.com/tobgu/qframe/internal/column"
-	"github.com/tobgu/qframe/internal/ecolumn"
-	"github.com/tobgu/qframe/internal/fcolumn"
-	"github.com/tobgu/qframe/internal/icolumn"
-	"github.com/tobgu/qframe/internal/index"
-	"github.com/tobgu/qframe/internal/scolumn"
-	"github.com/tobgu/qframe/qerrors"
+	"github.com/yistabraq/qframe/internal/bcolumn"
+	"github.com/yistabraq/qframe/internal/column"
+	"github.com/yistabraq/qframe/internal/ecolumn"
+	"github.com/yistabraq/qframe/internal/fcolumn"
+	"github.com/yistabraq/qframe/internal/icolumn"
+	"github.com/yistabraq/qframe/internal/index"
+	"github.com/yistabraq/qframe/internal/scolumn"
+	"github.com/yistabraq/qframe/qerrors"
 )
 
 type SQLConfig struct {

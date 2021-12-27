@@ -6,10 +6,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/tobgu/qframe/function"
-	qfstrings "github.com/tobgu/qframe/internal/strings"
-	"github.com/tobgu/qframe/qerrors"
-	"github.com/tobgu/qframe/types"
+	"github.com/yistabraq/qframe/function"
+	qfstrings "github.com/yistabraq/qframe/internal/strings"
+	"github.com/yistabraq/qframe/qerrors"
+	"github.com/yistabraq/qframe/types"
 )
 
 type functionsByArgCount struct {
