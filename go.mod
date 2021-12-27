@@ -1,4 +1,4 @@
-module github.com/tobgu/qframe
+module github.com/yistabraq/qframe
 
 require (
 	github.com/mauricelam/genny v0.0.0-20190320071652-0800202903e5
