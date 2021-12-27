@@ -23,10 +23,8 @@ func NewQPlot(cfg Config) QPlot {
 
 // WriteTo writes a plot to an io.Writer
 func (qp QPlot) WriteTo(writer io.Writer) error {
-	plt, err := plot.New()
-	if err != nil {
-		return err
-	}
+	plt := plot.New()
+
 	for _, fn := range qp.Plotters {
 		pltr, err := fn(plt)
 		if err != nil {
